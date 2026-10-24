@@ -10,6 +10,7 @@ namespace RestauranApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello TIT1/1");
         }
     }
 }
