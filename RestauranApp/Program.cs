@@ -31,7 +31,14 @@ namespace RestauranApp
             Console.WriteLine($"{"ID",-5} {"Name",-25} {"Type",-20} {"Rating",-6} ");
             Console.WriteLine("--------------------------------------------------------------");
 
- 
+            foreach (var r in restaurants)
+            {
+                Console.WriteLine($"{r.Id,-5} {r.Name,-25} {r.type,-20} {r.Rating,-6} ");
+
+            }
+            Console.WriteLine("--------------------------------------------------------------");
+            int toralrestaurants = restaurants.Count;
+            Double averageRating = restaurants.Average(r => r.Rating);
         }
     }
 }

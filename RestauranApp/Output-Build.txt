@@ -1,0 +1,5 @@
+﻿Build started at 11:02...
+1>------ Build started: Project: RestauranApp, Configuration: Debug Any CPU ------
+1>  RestauranApp -> D:\tit11\RestauranApp\RestauranApp\bin\Debug\RestauranApp.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 11:02 and took 00.968 seconds ==========
