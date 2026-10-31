@@ -26,7 +26,7 @@ namespace RestauranApp
                 new Restaurant { Id = 4, Name = "Huguosi Snacks",type ="Snacks" , Rating = 4.2 },
                 new Restaurant { Id = 5, Name = "Haidilao Hot Pot",type ="Hot Pot" , Rating = 4.8 },
             };
-            Console.WriteLine("===ราชื่อร้านอาหารทั้งหมด===");
+            Console.WriteLine("===ราชื่อร้านอาหารทั้งหมดที่มั===");
             Console.WriteLine("--------------------------------------------------------------");
             Console.WriteLine($"{"ID",-5} {"Name",-25} {"Type",-20} {"Rating",-6} ");
             Console.WriteLine("--------------------------------------------------------------");
@@ -43,6 +43,7 @@ namespace RestauranApp
             Console.WriteLine($"คะเเนนเฉลี่ยรวม {averageRating:F2} คะเนน ");
             Console.WriteLine("\nกดปุ่มใดๆก็ได้เพื่อปิดโปรเเกรม....");
             Console.ReadKey();
+            Console.WriteLine("--------------------------------------------------------------");
         }
     }
 }
